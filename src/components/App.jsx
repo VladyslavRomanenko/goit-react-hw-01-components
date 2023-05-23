@@ -1,5 +1,6 @@
-import { Profile } from "../index";
-import { Statistics } from "../index";
+import Profile from "profile";
+import Statistics from "statistics";
+import FriendList from "friends";
 import user from '../json/user.json'
 import data from '../json/data.json'
 import transactions from '../json/transactions.json'
@@ -16,6 +17,7 @@ const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
+      <FriendList items={friends} />
     </div>
   )
 }
