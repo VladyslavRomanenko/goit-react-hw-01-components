@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './profile.css';
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className="profile-container">

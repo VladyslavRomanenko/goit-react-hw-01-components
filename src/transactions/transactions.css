@@ -1,0 +1,38 @@
+.transaction-history {
+  margin: 0 auto;
+  background-color: white;
+  width: 330px;
+  margin-bottom: 30px;
+}
+
+.transaction-tr-thead {
+  background-color: rgb(224, 224, 224);
+}
+
+.transaction-th {
+  font-size: 22px;
+  padding: 10px 20px;
+  border: 1px solid grey;
+}
+
+.transaction-tr-tbody {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+}
+
+.transaction-td-type,
+.transaction-td-currency {
+  padding: 5px 10px 5px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid grey;
+}
+
+.transaction-td-amount {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid grey;
+}
