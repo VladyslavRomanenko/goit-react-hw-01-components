@@ -1,8 +1,8 @@
-/* @import-normalize bring in normalize.css styles */
-@import url('./friends/friends.css');
-@import url('./profile/profile.css');
-@import url('./statistics/statistics.css');
-@import url('./transactions/transactions.css');
+/* @import-normalize  */
+@import url('./components/Friends/Friends.css');
+@import url('./components/Profile/Profile.css');
+@import url('./components/Statistics/Statistics.css');
+@import url('./components/Transactions/Transactions.css');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

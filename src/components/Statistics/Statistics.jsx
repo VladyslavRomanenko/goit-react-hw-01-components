@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import './statistics.css';
+import './Statistics.css';
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
+    <div className="statistics">
       <div className="statistics-container">
         {title && <h2 className="title">{title}</h2>}
         <ul className="stat-list">
@@ -14,7 +14,7 @@ const Statistics = ({ title, stats }) => {
           ))}
         </ul>
       </div>
-    </section>
+    </div>
   );
 };
 
